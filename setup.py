@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='gearbest_api',
-    version='0.0.2',
+    version='0.0.1',
     description='Retrieve info from gearbest api.',
     url='https://github.com/matteobaldelli/python-gearbest-api',
     license='MIT',
