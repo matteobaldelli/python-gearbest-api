@@ -1,9 +1,14 @@
 from setuptools import setup
 
+with open('README.md', 'r', encoding='utf-8') as f:
+    readme = f.read()
+
 setup(
     name='gearbest_api',
-    version='0.0.2',
+    version='0.0.3',
     description='Retrieve info from gearbest api.',
+    long_description=readme,
+    long_description_content_type='text/markdown',
     url='https://github.com/matteobaldelli/python-gearbest-api',
     license='MIT',
     author='Matteo Baldelli',
