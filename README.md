@@ -1,4 +1,5 @@
 # Gearbest Api
+[![codecov](https://codecov.io/gh/matteobaldelli/python-gearbest-api/branch/master/graph/badge.svg)](https://codecov.io/gh/matteobaldelli/python-gearbest-api)
 
 A simple wrapper for gearbest api in python
 
@@ -11,7 +12,7 @@ $ pipenv install gearbest-api
 ```
 from gearbest_api import GearbestApi
 
-gearbest_api = GearbestApi(api_key='1234', api_secret='secret')
+gearbest_api = GearbestApi(api_key=1234, api_secret='secret')
 gearbest_api.get_app_exclusive_price_product()
 
 ```
