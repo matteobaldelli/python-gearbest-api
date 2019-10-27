@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='gearbest_api',
-    version='0.0.3',
+    version='0.0.4',
     description='Retrieve info from gearbest api.',
     long_description=readme,
     long_description_content_type='text/markdown',
